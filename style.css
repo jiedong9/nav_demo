@@ -1,60 +1,126 @@
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
+    background: #f3f6f8;
 }
+
 .globalHeader {
-  margin: 20px;
-}
-@media (min-width: 500px) {
-  .globalHeader {
-    margin: 60px 0 60px;
-  }
-}
-
-.seachAll {
-  display: flex;
-  justify-content: space-between;
+    margin: 20px;
 }
 
 @media (min-width: 500px) {
-  .seachAll {
-    max-width: 400px;
-    margin-left: auto;
-    margin-right: auto;
-  }
+    .globalHeader {
+        margin: 60px 0 30px;
+    }
 }
 
-.seachAll > input {
-  width: 100%;
-  margin-right: 10px;
-  border: 1px solid #ddd;
-  height: 40px;
-  padding: 0 10px;
-  border-radius: 4px;
+.searchForm {
+    display: flex;
+    justify-content: space-between;
 }
-.seachAll > button {
-  white-space: nowrap;
-  padding: 0 28px;
-  border: none;
-  border-radius: 4px;
-  background: #0282b9;
-  color: white;
-  font-size: 16px;
+
+@media (min-width: 500px) {
+    .searchForm {
+        max-width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
-.line {
-  margin: -20px;
+
+.searchForm>input {
+    width: 100%;
+    margin-right: 10px;
+    border: none;
+    height: 40px;
+    padding: 0 10px;
+    border-radius: 4px;
+    background: #fff;
+}
+
+.searchForm>button {
+    white-space: nowrap;
+    padding: 0 28px;
+    border: none;
+    border-radius: 4px;
+    background: #0282b9;
+    color: white;
+    font-size: 16px;
+}
+
+/*主体部分*/
+a,
+.site,
+.item,
+.itemList,
+.text,
+.fe,
+.addButton,
+.icon,
+.iconWrapper {
+    background-color: #fff;
+}
+
+.globalMain {
+    display: flex;
+    justify-content: center;
+}
+
+.globalMain>div {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    min-width: 1200px;
+}
+
+.fe {
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 16px;
+    box-shadow: 1px 2px 3px #f2f6f8;
 }
 
 .text {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-@media (min-width: 100px) {
-  .text {
-    max-width: 100px;
-    height: 40px;
-  }
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 0 10px 20px;
+    border-radius: 6px 0;
 }
 
-.text > p {
+.itemList {
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 0 6px;
+    padding-bottom: 10px;
+}
+
+.item {
+    min-width: 140px;
+    text-align: center;
+    border: 1px solid #e4ecf3;
+    margin: 12px;
+    padding-bottom: 10px;
+    box-shadow: 1px 2px 3px #f2f6f8;
+    border-radius: 6px;
+}
+
+.site {
+    text-transform: uppercase;
+    font-size: 36px;
+    border-radius: 6px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.iconWrapper {
+    border-radius: 6px;
+}
+
+.iconWrapper .icon {
+    width: 40px;
+    height: 40px;
+    padding-top: 3px;
 }

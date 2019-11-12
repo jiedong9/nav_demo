@@ -11,19 +11,82 @@
 
 <body>
     <header class="globalHeader">
-        <form class="seachAll" method="GET">
+        <form class="searchForm" method="GET">
             <input name="wd" type="text">
             <button type="submit">搜索</button>
         </form>
     </header>
-    <div class="text">
-        <p>前端工具</p>
-    </div>
-    <hr class="line">
-    <main>
-        <div class="content"></div>
-        <div class="item"></div>
+
+    <main class="globalMain">
+        <div>
+            <div class="fe" id="itemFirst">
+                <div class="text">
+                    前端工具
+                </div>
+                <div class="itemList">
+                    <div class="item">
+                        <div class="site">a</div>
+                        <a href="#">acfun.cn</a>
+                    </div>
+                    <div class="item">
+                        <div class="site">b</div>
+                        <a href="#">baidu.com</a>
+                    </div>
+                    <div class="item">
+                        <div class="iconWrapper">
+                            <svg class="icon">
+                                <use xlink:href="#icon-add"></use>
+                            </svg>
+                        </div>
+                        <div class="addButton">添加网站</div>
+                    </div>
+                </div>
+            </div>
+            <div class="fe" id="itemSecond">
+                <div class="text">
+                    前端工具
+                </div>
+                <div class="itemList">
+                    <div class="item">
+                        <div class="site">a</div>
+                        <a href="#">acfun.cn</a>
+                    </div>
+                    <div class="item">
+                        <div class="site">b</div>
+                        <a href="#">baidu.com</a>
+                    </div>
+                    <div class="item">
+                        <div class="site">b</div>
+                        <a href="#">baidu.com</a>
+                    </div>
+                    <div class="item">
+                        <div class="site">b</div>
+                        <a href="#">baidu.com</a>
+                    </div>
+                    <div class="item">
+                        <div class="site">b</div>
+                        <a href="#">baidu.com</a>
+                    </div>
+                    <div class="item">
+                        <div class="site">b</div>
+                        <a href="#">baidu.com</a>
+                    </div>
+                    <div class="item">
+                        <div class="iconWrapper">
+                            <svg class="icon">
+                                <use xlink:href="#icon-add"></use>
+                            </svg>
+                        </div>
+                        <div class="addButton">添加网站</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </main>
+    <script src="//at.alicdn.com/t/font_1500626_9juopw3kr9k.js"></script>
+    <script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
+    <script src="main.js"></script>
 </body>
 
 </html>
