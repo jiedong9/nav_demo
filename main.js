@@ -23,7 +23,7 @@ const hashMap = xObject || [{
         url: 'https://www.yuque.com/'
     }, {
         logo: 'J',
-        url: 'https://juejin.im//'
+        url: 'https://juejin.im/'
     }, {
         logo: 'Z',
         url: 'http://zhongguose.com/'
