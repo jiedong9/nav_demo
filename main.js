@@ -46,7 +46,7 @@ const render = () => {
         const $item = $(
             `<div class="item">
                 <div class="site">${node.logo}</div>
-                <a href="${simplifyUrl(node.url)}">${simplifyUrl(node.url)}</a>
+                <div class="text-url">${simplifyUrl(node.url)}</div>
                 <div class="close">
                 <svg class="close-icon">
                     <use xlink:href="#icon-guanbi"></use>

@@ -79,7 +79,8 @@ a,
 .icon,
 .close-icon,
 .close,
-.iconWrapper {
+.iconWrapper,
+.text-url {
     background-color: #fff;
 }
 
