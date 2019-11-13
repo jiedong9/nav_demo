@@ -146,12 +146,6 @@ var hashMap = xObject || [{
 }, {
   logo: 'G',
   url: 'https://github.com/lifesinger'
-}, {
-  logo: 'W',
-  url: 'https://weekly.75team.com/'
-}, {
-  logo: 'D',
-  url: 'https://developer.mozilla.org/zh-CN/'
 }]; // 网址处理
 
 var simplifyUrl = function simplifyUrl(url) {
@@ -233,7 +227,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "2837" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "2372" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

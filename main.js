@@ -30,14 +30,7 @@ const hashMap = xObject || [{
     }, {
         logo: 'G',
         url: 'https://github.com/lifesinger'
-    }, {
-        logo: 'W',
-        url: 'https://weekly.75team.com/'
     },
-    {
-        logo: 'D',
-        url: 'https://developer.mozilla.org/zh-CN/'
-    }
 
 ]
 // 网址处理

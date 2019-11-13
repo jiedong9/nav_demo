@@ -98,8 +98,7 @@ a,
 
 @media(min-width: 500px) {
     .globalMain>div {
-        min-width: 1200px;
-
+        width: 1200px;
     }
 }
 
