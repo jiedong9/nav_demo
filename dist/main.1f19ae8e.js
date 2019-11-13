@@ -123,11 +123,35 @@ var $lastitem = $itemList.find('.last');
 var x = localStorage.getItem('x');
 var xObject = JSON.parse(x);
 var hashMap = xObject || [{
-  logo: 'A',
-  url: 'https://www.acfun.cn'
+  logo: 'G',
+  url: 'https://www.google.com.hk/'
 }, {
-  logo: 'B',
-  url: 'https://www.bilibili.com'
+  logo: 'Z',
+  url: 'http://www.zhihu.com/'
+}, {
+  logo: 'Y',
+  url: 'https://www.youtube.com/'
+}, {
+  logo: 'A',
+  url: 'https://www.axitalk.com/'
+}, {
+  logo: 'Y',
+  url: 'https://www.yuque.com/'
+}, {
+  logo: 'J',
+  url: 'https://juejin.im//'
+}, {
+  logo: 'Z',
+  url: 'http://zhongguose.com/'
+}, {
+  logo: 'G',
+  url: 'https://github.com/lifesinger'
+}, {
+  logo: 'W',
+  url: 'https://weekly.75team.com/'
+}, {
+  logo: 'D',
+  url: 'https://developer.mozilla.org/zh-CN/'
 }]; // 网址处理
 
 var simplifyUrl = function simplifyUrl(url) {
